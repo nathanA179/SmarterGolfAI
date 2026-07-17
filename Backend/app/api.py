@@ -4,9 +4,9 @@ from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory="Backend/app/templates")
 
-app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/static", StaticFiles(directory="Backend/app/static"), name="static")
 
 @app.get("/")
 def home(request: Request):
