@@ -3,12 +3,12 @@ import { router } from "expo-router"
 export default function HomePage() {
     return (
         <View>
-            <Image source ={require("app/page_img.jpg")} />     
+            <Image source ={require("src/app/page_img.jpg")} />     
             <Text style = {{ fontSize: 64, fontWeight: "bold" }}> Hello User!</Text>
 
-            <Pressable onPress={() => router.push("../app/ProfilePage")}>
+            <Pressable onPress={() => router.push("../src/app/ProfilePage")}>
                 <Image    
-                    source = {require("app/profilebutton-img.png")}
+                    source = {require("src/app/profilebutton-img.png")}
                     style = {{
                     borderRadius: 50,
                     borderWidth: 4,
@@ -16,9 +16,9 @@ export default function HomePage() {
                     }}
             /></Pressable>
                 
-            <Pressable onPress={() => router.push("../app/CoachimgPage")}>
+            <Pressable onPress={() => router.push("../src/app/CoachimgPage")}>
                 <Image 
-                    source = {require("app/coachbutton-img.jpg")}
+                    source = {require("src/app/coachbutton-img.jpg")}
                     style = {{
                     borderRadius: 50,
                     borderWidth: 4,
@@ -27,9 +27,9 @@ export default function HomePage() {
             /></Pressable>
             <Text style = {{fontSize: 20 }}> AI Coach </Text>
             
-            <Pressable onPress = {() => router.push("../app/PlayPage-Setup")}>
+            <Pressable onPress = {() => router.push("../src/app/PlayPage-Setup")}>
                 <Image 
-                    source = {require("app/coachbutton-img.jpg")} 
+                    source = {require("src/app/coachbutton-img.jpg")} 
                     style = {{
                     borderRadius: 50,
                     borderWidth: 4,
@@ -40,9 +40,9 @@ export default function HomePage() {
           
            
             
-            <Pressable onPress = {() => router.push("../app/YardagePage-Setup")}>
+            <Pressable onPress = {() => router.push("../src/app/YardagePage-Setup")}>
                 <Image 
-                    source = {require("app/yrdgbutton.jpg")}
+                    source = {require("src/app/yrdgbutton.jpg")}
                     style = {{
                     borderRadius: 50,
                     borderWidth: 4,
@@ -51,9 +51,9 @@ export default function HomePage() {
             /></Pressable>
             <Text style = {{fontSize: 20 }}> Learn Your Yardage </Text>
 
-            <Pressable onPress = {() => router.push("../app/AnalyticsPage")}>
+            <Pressable onPress = {() => router.push("../src/app/AnalyticsPage")}>
                 <Image 
-                    source = {require("app/anaylticsbutton-img.png")}
+                    source = {require("src/app/anaylticsbutton-img.png")}
                     style = {{
                     borderRadius: 50,
                     borderWidth: 4,
