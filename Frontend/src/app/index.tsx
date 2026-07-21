@@ -6,7 +6,7 @@ export default function HomePage() {
             <Image source ={require("../../assets/images/page_img.jpg")} />     
             <Text style = {{ fontSize: 64, fontWeight: "bold" }}> Hello User!</Text>
 
-            <Pressable onPress={() => router.push("../src/app/ProfilePage")}>
+            <Pressable onPress={() => router.push("/ProfilePage")}>
                 <Image    
                     source = {require("../../assets/images/profilebutton-img.png")}
                     style = {{
@@ -16,7 +16,7 @@ export default function HomePage() {
                     }}
             /></Pressable>
                 
-            <Pressable onPress={() => router.push("../src/app/CoachimgPage")}>
+            <Pressable onPress={() => router.push("/CoachingPage")}>
                 <Image 
                     source = {require("../../assets/images/coachbutton-img.jpg")}
                     style = {{
@@ -27,9 +27,9 @@ export default function HomePage() {
             /></Pressable>
             <Text style = {{fontSize: 20 }}> AI Coach </Text>
             
-            <Pressable onPress = {() => router.push("../src/app/PlayPage-Setup")}>
+            <Pressable onPress = {() => router.push("/PlayPage_Setup")}>
                 <Image 
-                    source = {require("../../assets/images/coachbutton-img.jpg")} 
+                    source = {require("../../assets/images/gamebutton-img.jpg")} 
                     style = {{
                     borderRadius: 50,
                     borderWidth: 4,
@@ -40,7 +40,7 @@ export default function HomePage() {
           
            
             
-            <Pressable onPress = {() => router.push("../src/app/YardagePage-Setup")}>
+            <Pressable onPress = {() => router.push("/YardagePage_setup")}>
                 <Image 
                     source = {require("../../assets/images/yrdgbutton.jpg")}
                     style = {{
@@ -51,9 +51,9 @@ export default function HomePage() {
             /></Pressable>
             <Text style = {{fontSize: 20 }}> Learn Your Yardage </Text>
 
-            <Pressable onPress = {() => router.push("../src/app/AnalyticsPage")}>
+            <Pressable onPress = {() => router.push("/AnalyticsPage")}>
                 <Image 
-                    source = {require("../../assets/images/anaylticsbutton-img.png")}
+                    source = {require("../../assets/images/analyticsbutton-img.png")}
                     style = {{
                     borderRadius: 50,
                     borderWidth: 4,
