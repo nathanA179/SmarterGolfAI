@@ -1,6 +1,5 @@
 import { StyleSheet, Text, View, Pressable, Image, ScrollView } from 'react-native';
 import { router } from 'expo-router';
-import React from 'react';
 export default function App() {
 return (
   <ScrollView style = {{flex: 1
