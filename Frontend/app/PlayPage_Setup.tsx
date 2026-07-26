@@ -1,5 +1,5 @@
 import { Text, View } from 'react-native';
-export default function pp_s() {
+export default function PlayPage_Setup() {
     return (
         <View>
             <Text> Coming soon!</Text>

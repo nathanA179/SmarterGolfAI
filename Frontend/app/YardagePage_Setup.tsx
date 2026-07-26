@@ -1,5 +1,5 @@
 import { Text, View } from 'react-native';
-export default function  yp_s() {
+export default function  YardagePage_Setup() {
     return (
         <View>
             <Text> Coming soon!</Text>
